@@ -37,16 +37,16 @@ function setTheme(mode) {
 }
 
 /**
- * Name element (a tag with "Anmol") related code
+ * Name element (a tag with "Aayush") related code
  */
 const nameElement = document.getElementById('first_name');
 nameElement.addEventListener('mouseenter', () => {
-  nameElement.innerHTML = 'Anmol🔊';
+  nameElement.innerHTML = 'Aayush🔊';
 });
 nameElement.addEventListener('mouseleave', () => {
-  nameElement.innerHTML = 'Anmol';
+  nameElement.innerHTML = 'आयुष';
 });
 nameElement.addEventListener('click', () => {
-  const audioFile = new Audio('./audio/Anmol.mp3');
+  const audioFile = new Audio('./audio/Aayush.mp3');
   audioFile.play();
 });
